@@ -15,12 +15,12 @@
 <body>
     <aside>
         <img src="{% static 'main/img/round_dgunh_logo.png' %}" alt="dgunh">
-        <span class="logo">Labs.ino</span>
+        <span class="logo">Labs</span>
         <h3>Навигация</h3>
         <ul>
-            <a href=""><li><img src="{% static 'main/img/home_icon.png' %}">Главная</li></a>
-            <a href=""><li><img src="{% static 'main/img/code_icon.png' %}">Проекты</li></a>
-            <a href=""><li><img src="{% static 'main/img/info_icon.png' %}">Про нас</li></a>
+            <a href="{% url 'Homepage'%}"><li><img src="{% static 'main/img/home_icon.png' %}"> Главная</li></a>
+            <a href="{% url 'Projects'%}"><li><img src="{% static 'main/img/code_icon.png' %}"> Проекты</li></a>
+            <a href="{% url 'About'%}"><li><img src="{% static 'main/img/info_icon.png' %}"> Про нас</li></a>
         </ul>
     </aside>
     <main>
