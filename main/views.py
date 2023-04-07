@@ -6,7 +6,7 @@ def index(request):
     return render(request, 'main/index.html')
 
 def projects(request):
-    return HttpResponse("<h1>List of projects</h1>")
+    return render(request, 'main/projects.html')
 
 def about(request):
-    return HttpResponse("<h1>About page</h1>")
+    return render(request, 'main/about_us.html')
