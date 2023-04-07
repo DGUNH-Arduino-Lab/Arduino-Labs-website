@@ -59,3 +59,21 @@ aside ul li:hover, aside ul li a:hover {
     transform: scale(1.05);
 
 }
+
+main .features {
+    float: left;
+    color: whitesmoke;
+    margin: 100px auto;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {
+    font-size: 60px
+}
+
+main .features p {
+    width: 800px;
+    margin: 20px auto;
+    font-size: 30px;
+}
