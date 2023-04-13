@@ -4,9 +4,9 @@
 2. **Structure of Project**
     - components.csv *this file stores a list of components*
         - columns
-            1. "Name": *component's code*
-            2. "Quantity": *number of components*
-            3. "Component": *component's name*
+            - "Name": *component's code*
+            - "Quantity": *number of components*
+            - "Component": *component's name*
     - electrical-circuit.png *image of the electrical circuit*
     - main.ino *code of project*
     - module-tinkercad-picture.png *image of the project from tinkercad*
