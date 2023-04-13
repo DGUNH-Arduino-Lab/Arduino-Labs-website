@@ -8,6 +8,7 @@
 1. **Folders with projects are numbered** *for example: Project_1, Project_2, etc.*
 
 2. **Structure of each Project**
+
 | File | Stores |
 | --- | --- |
 | `name.txt` | The file that stores the project name |
