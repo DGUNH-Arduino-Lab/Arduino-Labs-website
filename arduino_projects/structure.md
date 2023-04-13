@@ -1,7 +1,6 @@
 # Data storage structure
----
+
 ## eng
----
 ### General information about the document
 - This file describes the structure of storing project files displayed on the site.
 ---
@@ -22,8 +21,7 @@
 | `simulation.mov` | Video from the project simulation screen in tinkercad |
 
 ---
-### ru
----
+## ru
 ### Общая информация о документе
 - В этом файле описана структура хранения файлов проектов отображаемых на сайте.
 ---
